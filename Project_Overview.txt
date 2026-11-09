@@ -1,0 +1,27 @@
+
+PROJECT TITLE:
+HTTP Login Authentication and Network Traffic Analysis Using Wireshark
+
+PROJECT OBJECTIVE:
+To understand how HTTP login requests work and how network traffic can be captured and analysed using Wireshark.
+
+TOOLS USED:
+1. Python
+2. HTML
+3. Wireshark
+4. Google Chrome
+
+PROJECT ACTIVITIES:
+1. Created a test login webpage using Python.
+2. Hosted the webpage on a local HTTP server.
+3. Submitted fake login credentials.
+4. Captured network packets using Wireshark.
+5. Identified HTTP GET and POST requests.
+6. Used Follow TCP Stream to inspect communication.
+7. Observed that HTTP login credentials were visible in plaintext.
+
+KEY FINDING:
+The experiment demonstrated that credentials submitted over an unencrypted HTTP connection can be exposed through packet analysis.
+
+LEARNING OUTCOME:
+Learned how HTTP requests work, how login data travels between a browser and server, and how Wireshark helps identify security weaknesses in unencrypted communication.
